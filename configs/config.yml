@@ -1,0 +1,14 @@
+batch_size: 32
+image_size: 64 # 28 for mnist, 32 for celeba and CIFAR10
+channels_img: 3 # 1 for mnist, 3 for celeba and CIFAR10
+num_epochs: 100
+features_critic: 64
+features_gen: 64
+critic_iterations: 5
+weight_clip: 0.01
+load_rf_pretrain: true
+load_critic_pretrain: true
+base_channels: 64
+steps: 10
+using_accelerator: true
+device: cuda
